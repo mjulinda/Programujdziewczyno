@@ -103,3 +103,12 @@ var myYear = 1986
 
 if (myAge>myYear) {console.log ("hurra")} 
 else {console.log ("niehurra")}
+
+// DOM Api
+var ppp = document.querySelector (".jumbotron");
+ppp.style.border = "3px solid red";
+
+var divs = document.querySelectorAll("div")
+console.log (divs.length );
+divs[0].style.display = "none"
+
